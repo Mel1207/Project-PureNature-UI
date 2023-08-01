@@ -1,0 +1,28 @@
+*, html 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+header 
+  position: relative
+  height: 750px
+  width: 100%
+  background: url('./../assets/bg-header.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+  &::before
+    height: 100%
+    width: 100%
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: $cBlack
+    opacity: .35
+
+.spacer
+  height: 100vh
