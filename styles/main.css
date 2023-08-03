@@ -82,6 +82,13 @@ button, .button {
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1180px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 header {
   position: relative;
   height: 750px;
@@ -108,7 +115,34 @@ header::before {
   height: 100vh;
 }
 
-p {
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+.hero h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 23px;
+}
+.hero p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 45px;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+}
+.hero button {
+  margin: 0 auto;
+  display: block;
+}
+
+p.opening {
   text-align: center;
   margin: 50px 0;
   font-weight: 400;
