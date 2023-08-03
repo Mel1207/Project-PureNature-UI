@@ -51,11 +51,28 @@ header
     font-size: $hero-text
     text-align: center
     margin-bottom: 45px
-    line-height: 25px
-    letter-spacing: 0.8px
+    line-height: $p-lh-set
+    letter-spacing: $p-sp-set
     font-weight: 400
 
   button 
     margin: 0 auto 
     display: block
+
+.finder-widget 
+  position: relative
+  z-index: 30
+  height: 171px
+  max-width: 1020px
+  box-shadow: 0px 4px 60px 10px rgba(0, 0, 0, 0.10)
+  border-radius: 10px
+  background: $cWhite
+  margin: 0 auto
+  margin-top: -85px
+  padding: 30px
+
+  form 
+    display: grid 
+    grid-template-columns: repeat(4, 1fr)
+    gap: 65px
  

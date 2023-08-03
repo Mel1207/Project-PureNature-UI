@@ -142,6 +142,24 @@ header::before {
   display: block;
 }
 
+.finder-widget {
+  position: relative;
+  z-index: 30;
+  height: 171px;
+  max-width: 1020px;
+  box-shadow: 0px 4px 60px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: -85px;
+  padding: 30px;
+}
+.finder-widget form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 65px;
+}
+
 p.opening {
   text-align: center;
   margin: 50px 0;
