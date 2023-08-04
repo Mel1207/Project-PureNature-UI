@@ -24,6 +24,7 @@ ul {
   display: flex;
   align-items: center;
   width: 100%;
+  z-index: 50;
 }
 .navbar .nav-container {
   max-width: 1180px;
@@ -152,12 +153,32 @@ header::before {
   background: #fff;
   margin: 0 auto;
   margin-top: -85px;
-  padding: 30px;
+  padding: 30px 50px;
 }
 .finder-widget form {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 65px;
+  gap: 60px;
+}
+.finder-widget .form-group label {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Nirmala UI", sans-serif;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  display: block;
+  margin-bottom: 10px;
+}
+.finder-widget .form-group input {
+  height: 40px;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.finder-widget .form-group input::placeholder {
+  font-size: 14px;
+  font-family: "Nirmala UI", sans-serif;
+  font-weight: 400;
 }
 
 p.opening {
