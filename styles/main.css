@@ -180,6 +180,12 @@ header::before {
   font-family: "Nirmala UI", sans-serif;
   font-weight: 400;
 }
+.finder-widget .form-actions {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  height: 100%;
+}
 
 p.opening {
   text-align: center;
