@@ -83,6 +83,10 @@ button, .button {
   box-sizing: border-box;
 }
 
+body {
+  background: #FCFBFF;
+}
+
 .container {
   max-width: 1180px;
   width: 100%;
@@ -185,6 +189,25 @@ header::before {
   gap: 20px;
   flex-direction: column;
   height: 100%;
+}
+
+.section-1 {
+  padding: 85px 0 135px 0;
+}
+.section-1 .section-description {
+  margin-bottom: 70px;
+}
+.section-1 .section-description h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 17px;
+}
+.section-1 .section-description p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 p.opening {
