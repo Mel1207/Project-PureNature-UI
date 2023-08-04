@@ -94,6 +94,26 @@ body {
   margin: 0 auto;
 }
 
+.text-white {
+  color: #fff;
+}
+
+.section-description {
+  margin-bottom: 70px;
+}
+.section-description h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 17px;
+}
+.section-description p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+}
+
 header {
   position: relative;
   height: 750px;
@@ -194,21 +214,6 @@ header::before {
 .section-1 {
   padding: 85px 0 135px 0;
 }
-.section-1 .section-description {
-  margin-bottom: 70px;
-}
-.section-1 .section-description h2 {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  margin-bottom: 17px;
-}
-.section-1 .section-description p {
-  text-align: center;
-  font-size: 16px;
-  line-height: 25px;
-}
 .section-1 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -238,6 +243,12 @@ header::before {
 }
 .section-1 .cards .card:nth-child(even) {
   transform: translateY(40px);
+}
+
+.section-2 {
+  padding: 100px 0;
+  background: #141414;
+  background-image: url(../../assets/bg-pattern-1.png);
 }
 
 p.opening {

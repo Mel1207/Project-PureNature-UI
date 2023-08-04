@@ -12,6 +12,24 @@ body
   padding: 0 15px 
   margin: 0 auto
 
+.text-white 
+  color: $cWhite
+
+.section-description
+  margin-bottom: 70px
+
+  h2
+    text-align: center
+    font-size: $section-title-set
+    font-weight: 700 
+    letter-spacing: 1.5px
+    margin-bottom: 17px
+
+  p 
+    text-align: center
+    font-size: $p-set
+    line-height: $p-lh-set
+
 header 
   position: relative
   height: 750px
@@ -109,21 +127,6 @@ header
 .section-1 
   padding: 85px 0 135px 0 
 
-  .section-description
-    margin-bottom: 70px
-
-    h2
-      text-align: center
-      font-size: $section-title-set
-      font-weight: 700 
-      letter-spacing: 1.5px
-      margin-bottom: 17px
-
-    p 
-      text-align: center
-      font-size: $p-set
-      line-height: $p-lh-set
-
   .cards 
     display: grid
     grid-template-columns: repeat(4, 1fr)
@@ -153,3 +156,8 @@ header
 
     .card:nth-child(even) 
       transform: translateY(40px)
+
+.section-2 
+  padding: 100px 0
+  background: $cBlack-100
+  background-image: url(../../assets/bg-pattern-1.png)
