@@ -123,3 +123,33 @@ header
       text-align: center
       font-size: $p-set
       line-height: $p-lh-set
+
+  .cards 
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    gap: 32px
+
+    .card 
+      padding: 12px 
+      background: $cWhite
+      box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.05)
+      border-radius: 10px
+
+      .card-image 
+        width: 100%
+        border-radius: 10px
+        height: 220px
+        margin-bottom: 15px 
+
+      .card-title 
+        font-weight: 700
+        margin-bottom: 3px
+
+      .card-span 
+        font-size: 14px 
+        font-weight: 400 
+        letter-spacing: 0.7px 
+        color: rgba($cBlack, .50)
+
+    .card:nth-child(even) 
+      transform: translateY(40px)
