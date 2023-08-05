@@ -250,6 +250,43 @@ header::before {
   background: #141414;
   background-image: url(../../assets/bg-pattern-1.png);
 }
+.section-2 .feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.section-2 .feature-cards .feature-card {
+  background: #2E2E2E;
+  padding: 22px 25px;
+  border-radius: 10px;
+  border: 1px solid #2E2E2E;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.section-2 .feature-cards .feature-card .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+  background: #5E36FF;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.section-2 .feature-cards .feature-card .feature-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.section-2 .feature-cards .feature-card .feature-text {
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.75px;
+}
+.section-2 .feature-cards .feature-card:hover, .section-2 .feature-cards .active {
+  background: transparent;
+  border: 1px solid #2E2E2E;
+}
 
 p.opening {
   text-align: center;

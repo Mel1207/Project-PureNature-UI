@@ -161,3 +161,40 @@ header
   padding: 100px 0
   background: $cBlack-100
   background-image: url(../../assets/bg-pattern-1.png)
+
+  .feature-cards 
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 30px
+
+    .feature-card 
+      background: $cGray
+      padding: 22px 25px
+      border-radius: 10px
+      border: 1px solid $cGray
+      cursor: pointer
+      transition: all 0.2s ease
+
+      .icon-container 
+        display: flex 
+        align-items: center
+        justify-content: center
+        height: 38px
+        width: 38px
+        background: $bg-primary
+        border-radius: 100%
+        margin-bottom: 10px
+
+      .feature-title 
+        font-weight: 700
+        font-size: 18px
+        margin-bottom: 20px
+
+      .feature-text
+        font-size: 15px 
+        line-height: 23px
+        letter-spacing: 0.75px
+
+    .feature-card:hover, .active 
+      background: transparent 
+      border: 1px solid $cGray
