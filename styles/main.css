@@ -288,6 +288,15 @@ header::before {
   border: 1px solid #2E2E2E;
 }
 
+.section-3 {
+  padding: 110px 0;
+}
+.section-3 .client-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 p.opening {
   text-align: center;
   margin: 50px 0;
