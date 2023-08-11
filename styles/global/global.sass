@@ -209,6 +209,7 @@ header
 
 .section-4
   .email-alerts 
+    position: relative
     height: 455px
     width: 100%
     background: $bg-primary 
@@ -218,6 +219,7 @@ header
     box-shadow: 2px 18px 30px 0px rgba(0, 0, 0, 0.10)
     display: flex 
     align-items: center
+    overflow: hidden
 
     .content-left
       padding: 0 60px
@@ -261,4 +263,16 @@ header
         line-height: $p-lh-set
         letter-spacing: 0.8px
         color: rgba($cBlack, 0.3)
+
+  .insta-grid 
+    position: absolute
+    right: 8%
+    display: grid 
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 40px
+    transform: rotate(12.93deg)
+    .insta-card
+      height: 225px
+      width: 190px
+      background: $cWhite
 
