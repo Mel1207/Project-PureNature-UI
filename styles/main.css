@@ -297,6 +297,9 @@ header::before {
   justify-content: space-between;
 }
 
+.section-4 {
+  margin-bottom: 115px;
+}
 .section-4 .email-alerts {
   position: relative;
   height: 455px;
