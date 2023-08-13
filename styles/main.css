@@ -91,6 +91,17 @@ button, .button {
   background: #000;
 }
 
+.button-secondary {
+  border: 1px solid #5E36FF;
+  color: #5E36FF;
+  background: transparent;
+}
+.button-secondary:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
 *, html {
   margin: 0;
   padding: 0;
@@ -586,6 +597,9 @@ p.opening {
     font-size: 14px;
   }
 
+  .finder-widget {
+    padding: 30px;
+  }
   .finder-widget form {
     grid-template-columns: 1fr;
   }
