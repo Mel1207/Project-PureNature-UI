@@ -321,21 +321,55 @@ footer
       line-height: 21px
       letter-spacing: 1px
 
+    a 
+      color: rgba($cBlack, .60)
+      font-size: 16px
+      line-height: 25px
+
+      &:hover
+        color: $cPrimary
+
+    .footer-start 
+      p 
+        color: rgba($cBlack, .60)
+        line-height: 25px
+
     .footer-mid 
       display: flex 
       gap: 80px
+
+    .footer-end 
+      padding-left: 50px
+
+      a 
+        display: flex 
+        align-items: center
+        gap: 10px
+
+    .footer-start, .footer-mid, .footer-end 
+      ul 
+        li 
+          margin-bottom: 7px
 
   .footer-bottom
     display: flex
     align-items: center
     justify-content: space-between
     padding-top: 30px
+    padding-bottom: 30px
     border-top: 1px solid rgba($cBlack, .07)
 
     .footer-terms 
       display: flex 
       gap: 13px 
       align-items: center
+
+      a 
+        color: rgba($cBlack, .60)
+        font-size: 14px
+
+        &:hover
+          color: $cPrimary
 
       ul 
         display: flex 

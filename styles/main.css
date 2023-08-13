@@ -410,21 +410,52 @@ footer .footer-top h4 {
   line-height: 21px;
   letter-spacing: 1px;
 }
+footer .footer-top a {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 25px;
+}
+footer .footer-top a:hover {
+  color: #5E36FF;
+}
+footer .footer-top .footer-start p {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 25px;
+}
 footer .footer-top .footer-mid {
   display: flex;
   gap: 80px;
+}
+footer .footer-top .footer-end {
+  padding-left: 50px;
+}
+footer .footer-top .footer-end a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .footer-top .footer-start ul li, footer .footer-top .footer-mid ul li, footer .footer-top .footer-end ul li {
+  margin-bottom: 7px;
 }
 footer .footer-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 30px;
+  padding-bottom: 30px;
   border-top: 1px solid rgba(0, 0, 0, 0.07);
 }
 footer .footer-bottom .footer-terms {
   display: flex;
   gap: 13px;
   align-items: center;
+}
+footer .footer-bottom .footer-terms a {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+footer .footer-bottom .footer-terms a:hover {
+  color: #5E36FF;
 }
 footer .footer-bottom .footer-terms ul {
   display: flex;
