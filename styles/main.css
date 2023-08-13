@@ -235,12 +235,16 @@ header::before {
   background: #fff;
   box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+  max-width: 270px;
+  width: 100%;
+  margin: auto;
 }
 .section-1 .cards .card .card-image {
   width: 100%;
   border-radius: 10px;
   height: 220px;
   margin-bottom: 15px;
+  object-fit: cover;
 }
 .section-1 .cards .card .card-title {
   font-weight: 700;
@@ -498,6 +502,21 @@ p.opening {
   font-family: inherit;
 }
 
+@media screen and (max-width: 1000px) {
+  .section-1 .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer .footer-top {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  footer .footer-top .footer-mid {
+    gap: 50px;
+  }
+  footer .footer-top .footer-end {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 800px) {
   .navbar .nav-links, .navbar button {
     display: none;
@@ -515,6 +534,19 @@ p.opening {
   }
   .navbar-active .hamburger-menu {
     display: none;
+  }
+
+  .finder-widget {
+    height: auto;
+  }
+  .finder-widget form {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .section-2 .feature-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
   }
 }
 
