@@ -81,6 +81,7 @@ button, .button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -134,10 +135,6 @@ header::before {
   bottom: 0;
   background: #000;
   opacity: 0.35;
-}
-
-.spacer {
-  height: 100vh;
 }
 
 .hero {
@@ -361,7 +358,7 @@ header::before {
   right: 8%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px;
+  grid-gap: 30px;
   transform: rotate(12.93deg);
 }
 .section-4 .insta-grid .insta-card {
@@ -389,6 +386,61 @@ header::before {
 }
 .section-4 .insta-grid .insta-card:nth-child(even) {
   transform: translateY(30px);
+}
+
+footer .footer-top {
+  display: grid;
+  grid-template-columns: 1fr 350px 1fr;
+  gap: 50px;
+  margin-bottom: 75px;
+}
+footer .footer-top h3, footer .footer-top h4 {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+footer .footer-top h3 {
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 2px;
+}
+footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+footer .footer-top .footer-mid {
+  display: flex;
+  gap: 80px;
+}
+footer .footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+footer .footer-bottom .footer-terms {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+footer .footer-bottom .footer-terms ul {
+  display: flex;
+  gap: 13px;
+}
+footer .footer-bottom .footer-terms a.button-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+}
+footer .footer-bottom .footer-terms a.button-primary img {
+  height: 15px;
+  width: 15px;
 }
 
 p.opening {
