@@ -1,4 +1,4 @@
-// 
+// LAPTOP SET
 @media screen and (max-width: 1000px) 
   .section-1 
     .cards
@@ -13,7 +13,6 @@
 
       .footer-end 
         padding: 0
-
   
 // TABLET SET
 @media screen and (max-width: 800px) 
@@ -52,8 +51,76 @@
       flex-direction: column 
       gap: 30px
 
+  .section-4
+    .email-alerts 
+      .content-left
+        padding: 0 30px
+
+    .insta-grid 
+      display: none
+
   footer
     .footer-top
       grid-template-columns: 1fr 1fr
 
 // MOBILE SET
+@media screen and (max-width: 600px)
+  .hero 
+    br 
+      display: none
+
+  .finder-widget 
+    form 
+      grid-template-columns: 1fr
+
+  .section-1 
+    .section-description 
+      br 
+        display: none
+
+    .cards
+      grid-template-columns: 1fr
+
+      .card:nth-child(even)
+        transform: translateY(0)
+
+  .section-2 
+    padding: 75px 0
+
+    .section-description 
+      br 
+        display: none
+
+    .feature-cards
+      grid-template-columns: 1fr
+
+  .section-3
+    padding: 55px 0
+
+  .section-4
+    margin-bottom: 75px
+
+    .email-alerts 
+      br 
+        display: none
+
+      .email-input, .email-form 
+        width: 100%
+
+      .content-left
+
+        margin: auto 
+
+  footer 
+    .footer-top
+      grid-template-columns: 1fr
+
+      .footer-start, .footer-end 
+        br 
+          display: none
+
+    .footer-bottom 
+      flex-direction: column
+
+      span 
+        margin-bottom: 10px
