@@ -548,6 +548,15 @@ p.opening {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
+
+  .section-3 .client-logos {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  footer .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
