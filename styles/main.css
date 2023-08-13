@@ -52,7 +52,7 @@ ul {
   color: #fff;
   letter-spacing: 0.8px;
 }
-.navbar .hamburger-menu {
+.navbar .hamburger-menu, .navbar .hamburger-menu-black {
   display: none;
   margin-top: 5px;
 }
@@ -441,7 +441,7 @@ footer .footer-top .footer-mid {
   gap: 80px;
 }
 footer .footer-top .footer-end {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 footer .footer-top .footer-end a {
   display: flex;
@@ -458,6 +458,9 @@ footer .footer-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
   border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+footer .footer-bottom span {
+  color: #5f5f5f;
 }
 footer .footer-bottom .footer-terms {
   display: flex;
@@ -505,6 +508,13 @@ p.opening {
     align-items: center;
     justify-content: center;
     height: max-content;
+  }
+
+  .navbar-active .hamburger-menu-black {
+    display: block;
+  }
+  .navbar-active .hamburger-menu {
+    display: none;
   }
 }
 
