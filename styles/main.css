@@ -568,8 +568,22 @@ p.opening {
   }
 }
 @media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 25px;
+    line-height: normal;
+  }
   .hero br {
     display: none;
+  }
+
+  .section-description {
+    margin-bottom: 50px;
+  }
+  .section-description h2 {
+    font-size: 20px;
+  }
+  .section-description p {
+    font-size: 14px;
   }
 
   .finder-widget form {
